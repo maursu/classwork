@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Html tags and css properties</title>
+  </head>
+  <body style="background-color:peru">
+    
+    <!-- Чтобы строка не выходила за границы: option + z (mac), alt + z (windows)  -->
+
+    <!-- 1. Создать все виды заголовков с текстом "Hello world" c классом "heading". -->
+
+      <style>
+        .heading{color:red}
+        #heading-2{color:blue}
+        #heading-3{color:red; background-color: black;}
+        #heading-4{color:red; border:4px double black;border-radius: 5px;}
+        #heading-5:hover{opacity: 0.5;
+        filter: alpha(opacity=50);}
+        .BUT1{color: lawngreen; 
+          width: 100px;
+          height: 20px;}
+        </style>
+    <h1 class="heading" id ="heading-1" >Hello world</h1>
+    <h2 class="heading" id ="heading-2">Hello world</h1>
+    <h3 class="heading" id ="heading-3">Hello world</h1>
+    <h4 class="heading" id ="heading-4">Hello world</h1>
+    <h5 class="heading" id ="heading-5">Hello world</h1>
+    <h6 class="heading" id ="heading-6">Hello world</h1>
+
+    <input type="text" placeholder="Login" />
+    <input type="password" placeholder="Parol'" />
+    <input type="date" />
+    <input type="checkbox" />
+    <input class="BUT1" type="button"/>
+    <input type="text" placeholder="Узрей" />
+
+    <ol class="o.list">
+      <li>Нумерованный</li>
+      <li>Нумерованный</li>
+      <li>Нумерованный</li>
+      <li>Нумерованный</li>
+    </ol>
+    <div style="list-style-type: square">
+      <ml>
+      <li>Нумерованный</li>
+      <li>Нумерованный</li>
+      <li>Нумерованный</li>
+      <li>Нумерованный</li>
+      </ml>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, pariatur sint. Iusto accusantium, saepe eius maiores cumque recusandae repellendus inventore fugit ducimus quasi qui repellat obcaecati ad excepturi aperiam a.</p>
+
+
+    <style>
+      .task13{height: 100px;
+        width: 100px;
+        background-color: forestgreen;
+        margin: 10px;
+
+      }
+    </style>
+    <style>
+      .container{
+        margin-left: 42.5%;
+      }
+    </style>
+    <div class="container">
+      <ol>
+        <li class="task13"></li>
+        <li class="task13"></li>
+        <li class="task13"></li>
+        <li class="task13"></li>
+        <li class="task13"></li>
+        <li class="task13"></li>
+      </ol>
+    </div>
+
+
+  </body>
+</html>
